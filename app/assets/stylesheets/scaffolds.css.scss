@@ -1,15 +1,29 @@
+#menu {
+  
+background-color:#3083A7;  
+  margin:-20px;
+  height:70px;
+  line-height:70px;
+}
+
 body {
-  background-color: #fff;
+  background-color: #4BAAD3;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+}
+
+tbody{
+  background-color:#A3D7ED;
+  
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+ font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 pre {
@@ -19,13 +33,12 @@ pre {
 }
 
 a {
-  color: #000;
+  color: white;
   &:visited {
-    color: #666;
+    color: white;
   }
   &:hover {
-    color: #fff;
-    background-color: #000;
+    background-color: #26AE90;
   }
 }
 
