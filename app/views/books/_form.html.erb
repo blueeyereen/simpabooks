@@ -17,7 +17,8 @@
   </div>
   <div class="field">
     <%= f.label :author %><br>
-    <%= f.number_field :author_id %>
+    <% options = options_from_collection_for_select @authors, 'id', 'last_name' %>
+    <%= f.select :author_id, options %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
